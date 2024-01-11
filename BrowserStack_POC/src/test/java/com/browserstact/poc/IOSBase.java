@@ -42,7 +42,6 @@ public class IOSBase {
 		options.setCapability("name", "Bstack-[Java] Sample iOS Test");
 		options.setCapability("interactiveDebugging", true);
 		options.setCapability("app", "bs://444bd0308813ae0dc236f8cd461c02d3afa7901d"); //bs://sample.app
-		
 		driver = new IOSDriver(
 				new URL("https://"+userName+ ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub"), options);
 

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.browserstact.poc.IOSTestCases" class="method navigator-link" hash-for-method="tc001">tc001</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.browserstact.poc.AndroidTestCases" class="method navigator-link" hash-for-method="tc_004_wiki">tc_004_wiki</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,40 +119,90 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.browserstact.poc.IOSTestCases</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.browserstact.poc.AndroidTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc001">
-                  </a> <!-- tc001 -->
-                  <span class="method-name">tc001</span>
+                  <a name="tc_004_wiki">
+                  </a> <!-- tc_004_wiki -->
+                  <span class="method-name">tc_004_wiki</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.5.2&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b17a79e5addf8e9fdf9dc058e73f60a0f9ef981c, findElement {using=xpath, value=//android.widget.AutoCompleteTextView[@text=&apos;Search…&apos;]}]
+Capabilities {appium:appActivity: org.wikipedia.main.MainActi..., appium:appPackage: org.wikipedia.alpha, appium:automationName: uiautomator2, appium:build: android, appium:chromedriverPort: 18084, appium:chromedriverPorts: [[18144, 18154]], appium:databaseEnabled: false, appium:desired: {appActivity: org.wikipedia.main.MainActi..., appPackage: org.wikipedia.alpha, automationName: uiautomator2, bstack:options: {appiumVersion: 1.17.0, buildIdentifier: #19, hostName: Mainaks-MacBook-Air.local, localIdentifier: 11_Jan_1853_Mainaks_MacBook...}, build: android, chromedriverPort: 18084, chromedriverPorts: [[18144, 18154]], deviceName: samsung galaxy s22 ultra, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, name: bstack-[java] sample test a..., nativeWebScreenshot: true, newCommandTimeout: 0, os_version: 12, platformName: Android, project: android project, skipServerInstallation: true, systemPort: 8204, udid: R5CR906DT5P}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G991B, appium:deviceName: R5CR906DT5P, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: R5CR906DT5P, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:name: bstack-[java] sample test a..., appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-aps.browserstack.com, appium:os_version: 12, appium:pixelRatio: 3, appium:platformVersion: 12, appium:project: android project, appium:skipServerInstallation: true, appium:statBarHeight: 79, appium:systemPort: 8204, appium:takesScreenshot: true, appium:udid: R5CR906DT5P, appium:viewportRect: {height: 2097, left: 0, top: 79, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {appiumVersion: 1.17.0, buildIdentifier: #19, hostName: Mainaks-MacBook-Air.local, localIdentifier: 11_Jan_1853_Mainaks_MacBook...}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: b17a79e5addf8e9fdf9dc058e73f60a0f9ef981c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at com.browserstact.poc.AndroidTestCases.tc_004_wiki(AndroidTestCases.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/md/0gdpxn5n2272h8rbmdtbnbm00000gn/T/testng-eclipse--30814792/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/md/0gdpxn5n2272h8rbmdtbnbm00000gn/T/testng-eclipse-1523374607/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Default test-0&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.browserstact.poc.IOSTestCases&quot;&gt;
+      &lt;class name=&quot;com.browserstact.poc.AndroidTestCases&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;tc001&quot;/&gt;
+          &lt;include name=&quot;tc_004_wiki&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.browserstact.poc.IOSTestCases --&gt;
+      &lt;/class&gt; &lt;!-- com.browserstact.poc.AndroidTestCases --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
+  &lt;/test&gt; &lt;!-- Default test-0 --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,7 +214,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test-0 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,14 +242,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc001')
-data.setCell(0, 2, 'com.browserstact.poc.IOSTestCases')
-data.setCell(0, 3, 6074);
+data.setCell(0, 1, 'tc_004_wiki')
+data.setCell(0, 2, 'com.browserstact.poc.AndroidTestCases')
+data.setCell(0, 3, 1674);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -214,13 +264,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.browserstact.poc.IOSTestCases</span>
+              <span class="ignored-class-name">com.browserstact.poc.AndroidTestCases</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">tc002</span>
+                <span class="ignored-method-name">tc_001</span>
+                <br/>
+                <span class="ignored-method-name">tc_002</span>
+                <br/>
+                <span class="ignored-method-name">tc_003</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -232,18 +286,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.browserstact.poc.IOSTestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.browserstact.poc.AndroidTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc001</span>
-                <span class="method-start">26800 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_004_wiki</span>
+                <span class="method-start">23777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32895 ms</span>
+                <span class="method-start">25605 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

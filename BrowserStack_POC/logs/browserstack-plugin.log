@@ -467,3 +467,214 @@
 20:36:30.533 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 20:36:30.533 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 20:36:30.534 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+15:08:15.507 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+15:08:15.560 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=YOUR_ACCESS_KEY, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BrowserStack Sample, archetypeVersion=1.2, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=YOUR_USERNAME, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.3]
+15:08:15.576 [Worker-571: Launching mavenrun-1a25568d-bbce-49e1-8c04-5cbce00bf8cd] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:10:13.415 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:10:13.417 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:10:13.418 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+15:10:13.418 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:10:13.418 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:10:13.418 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+15:10:16.276 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:10:16.276 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:10:16.277 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+15:10:16.277 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:10:16.277 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:10:16.279 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+15:13:43.518 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:13:43.519 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:43.519 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+15:13:43.519 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:13:43.519 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:13:43.519 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+15:15:47.397 [Worker-584: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:15:47.409 [Worker-584: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:15:47.411 [Worker-584: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:15:47.411 [Worker-584: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:17:27.343 [Worker-581: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:17:27.355 [Worker-581: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:17:27.356 [Worker-581: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:17:27.356 [Worker-581: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:18:55.822 [Worker-582: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:18:55.826 [Worker-582: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:18:55.827 [Worker-582: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:18:55.829 [Worker-582: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:26:07.749 [Worker-584: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:26:07.753 [Worker-584: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:26:07.755 [Worker-584: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:26:07.755 [Worker-584: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:29:59.468 [Worker-590: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:29:59.473 [Worker-590: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:29:59.475 [Worker-590: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:29:59.476 [Worker-590: Launching AndroidTestCases.tc_001] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+15:31:10.484 [Worker-593: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:31:10.488 [Worker-593: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:31:10.490 [Worker-593: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:31:10.490 [Worker-593: Launching IOSTestCases.tc001] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+14:23:16.035 [Framework stop - Equinox Container: bd006b06-80f3-49e6-be9e-381baae794b6] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
+18:54:17.728 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:54:17.730 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:54:17.731 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/BrowserStack_POC_JavaOnly
+18:54:17.731 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:54:17.731 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:54:17.732 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/BrowserStack_POC_JavaOnly
+18:54:18.580 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:54:18.581 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:54:18.583 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/BrowserStack_POC_JavaOnly
+18:54:18.584 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:54:18.588 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:54:18.593 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/BrowserStack_POC_JavaOnly
+18:54:19.321 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:54:19.322 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:54:19.323 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : false P/BrowserStack_POC_JavaOnly
+18:54:19.324 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:54:19.325 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:54:19.325 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : true P/BrowserStack_POC_JavaOnly
+18:42:41.278 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+18:42:41.294 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=YOUR_ACCESS_KEY, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BrowserStack Sample, archetypeVersion=1.2, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=YOUR_USERNAME, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.3]
+18:42:41.302 [Worker-110: Launching mavenrun-d087284f-cad6-41c4-870a-27da846d4dd0] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:43:02.954 [Worker-112: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:43:02.963 [Worker-112: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:02.963 [Worker-112: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+18:43:02.966 [Worker-112: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:43:13.291 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:43:13.292 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:13.293 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+18:43:13.293 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:43:13.293 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:13.293 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+18:43:14.525 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:43:14.526 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:14.527 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+18:43:14.527 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:43:14.527 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:14.527 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+18:43:44.287 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:43:44.290 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:44.291 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+18:43:44.291 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:43:44.291 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:44.291 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+18:43:46.018 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:43:46.019 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:46.020 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+18:43:46.021 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:43:46.021 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:43:46.022 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+18:44:00.122 [Worker-108: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:44:00.125 [Worker-108: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:44:00.125 [Worker-108: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+18:44:00.129 [Worker-108: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:48:54.032 [Worker-109: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:48:54.037 [Worker-109: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:48:54.038 [Worker-109: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+18:48:54.048 [Worker-109: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:51:43.797 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:51:43.808 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:51:43.808 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+18:51:43.812 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:52:16.466 [Worker-120: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:52:16.472 [Worker-120: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:52:16.472 [Worker-120: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+18:52:16.478 [Worker-120: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:53:11.061 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:53:11.079 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:53:11.079 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+18:53:11.082 [Worker-118: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:53:54.702 [Worker-117: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:53:54.707 [Worker-117: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+18:53:54.707 [Worker-117: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.3}
+18:53:54.711 [Worker-117: Launching AndroidTestCases.tc_004_wiki] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:08:37.333 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+19:08:37.337 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:08:37.337 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+19:08:37.338 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+19:08:37.338 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:08:37.338 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+19:08:38.555 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+19:08:38.556 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:08:38.560 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+19:08:38.561 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+19:08:38.561 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:08:38.561 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+19:08:39.388 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+19:08:39.388 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:08:39.390 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+19:08:39.391 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+19:08:39.392 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:08:39.394 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+19:10:43.996 [Worker-125: Launching AndroidTestCases] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getMavenProject(org.eclipse.core.runtime.IProgressMonitor)" because "prjFecade" is null
+19:10:44.006 [Worker-125: Launching AndroidTestCases] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:12:34.936 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+19:12:34.938 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:12:34.940 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+19:12:34.940 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+19:12:34.940 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:12:34.941 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+19:13:07.868 [Worker-127: Launching AndroidTestCases] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getMavenProject(org.eclipse.core.runtime.IProgressMonitor)" because "prjFecade" is null
+19:13:07.872 [Worker-127: Launching AndroidTestCases] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:14:26.367 [Worker-128: Launching AndroidTestCases] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getMavenProject(org.eclipse.core.runtime.IProgressMonitor)" because "prjFecade" is null
+19:14:26.380 [Worker-128: Launching AndroidTestCases] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:16:17.681 [Worker-129: Launching AndroidTestCases] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getMavenProject(org.eclipse.core.runtime.IProgressMonitor)" because "prjFecade" is null
+19:16:17.703 [Worker-129: Launching AndroidTestCases] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:18:06.011 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+19:18:06.013 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:18:06.014 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+19:18:06.014 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+19:18:06.014 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+19:18:06.014 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+19:19:01.090 [Worker-122: Launching AndroidTestCases] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getMavenProject(org.eclipse.core.runtime.IProgressMonitor)" because "prjFecade" is null
+19:19:01.103 [Worker-122: Launching AndroidTestCases] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:19:55.514 [Worker-128: Launching AndroidTestCases] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getMavenProject(org.eclipse.core.runtime.IProgressMonitor)" because "prjFecade" is null
+19:19:55.519 [Worker-128: Launching AndroidTestCases] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:23:57.841 [Worker-122: Launching AndroidTestCases] ERROR c.b.BrowserStackPluginActivator - Error in setJavaAgentVMArgs - java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getMavenProject(org.eclipse.core.runtime.IProgressMonitor)" because "prjFecade" is null
+19:23:57.855 [Worker-122: Launching AndroidTestCases] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+20:03:38.309 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:03:38.314 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:38.322 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+20:03:38.324 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:03:38.324 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:38.326 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+20:03:39.099 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:03:39.100 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:39.101 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+20:03:39.102 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:03:39.102 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:39.102 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+20:03:54.377 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:03:54.379 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:54.380 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+20:03:54.380 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:03:54.380 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:54.380 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+20:03:56.271 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:03:56.271 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:56.273 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+20:03:56.274 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:03:56.274 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:03:56.277 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+20:05:23.853 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:05:23.857 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:05:23.857 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+20:05:23.858 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:05:23.858 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:05:23.858 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+20:05:25.869 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:05:25.870 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:05:25.872 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC_JavaOnly
+20:05:25.873 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:05:25.873 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:05:25.874 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC_JavaOnly
+20:05:30.541 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:05:30.541 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:05:30.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+20:05:30.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:05:30.542 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:05:30.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC
+20:06:38.793 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+20:06:38.794 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:06:38.795 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BrowserStack_POC
+20:06:38.796 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+20:06:38.796 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys [BROWSERSTACK_PLUGIN_ENABLED]
+20:06:38.796 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BrowserStack_POC

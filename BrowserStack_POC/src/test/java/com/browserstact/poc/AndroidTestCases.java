@@ -53,6 +53,18 @@ public class AndroidTestCases extends AndroidBase {
 		
 
 	}
+	@Test
+	public void tc_004_wiki() throws InterruptedException
+	{
+		driver.findElement(By.xpath("//android.widget.TextView[@text='Search Wikipedia']")).click();
+		Thread.sleep(3);
+		driver.findElement(By.xpath("//android.widget.AutoCompleteTextView[@text='Search…']")).click();
+		Thread.sleep(3);
+		driver.findElement(By.xpath("//android.widget.AutoCompleteTextView[@text='Search…']")).sendKeys("Saudi National Bank");
+		Thread.sleep(3);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='Saudi National Bank']")).click();
+		Thread.sleep(3);
+	}
 
 }
 
